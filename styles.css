@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+@font-face {
+  font-family: Butler-font;
+  src: url(font/Butler_Black.otf);
+}
+
+.navigation-web {
+  display: none;
+}
+
+.navigation-mobile {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.logo-image {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.logo-image img {
+  width: 40%;
+  padding: 20px;
+}
+
+.nav {
+  background-color: aqua;
+  border-radius: 50%;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+.nav-bar1 {
+  width: 50px;
+  padding: 3px;
+  background-color: black;
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    background-image: url(./img/image\ 4.png);
+  }
+
+  .navigation-mobile {
+    display: none;
+  }
+
+  .navigation-web {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .logo-image {
+    width: 100%;
+  }
+
+  .logo-image img {
+    width: 30%;
+    padding: 20px;
+  }
+
+  .nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: "DM Sans", sans-serif;
+  }
+  .login {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .login button {
+    background-color: #fb2504;
+    width: 149px;
+    padding: 10px;
+    border: none;
+    font-family: "DM Sans", sans-serif;
+  }
+}
