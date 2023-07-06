@@ -475,15 +475,17 @@ body {
     border-right: 1px solid black;
     height: fit-content;
   }
+
   .menu-price-container1 {
     width: 90%;
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
-    padding: 27px;
+    padding: 32px;
   }
+
   .menu-price-image1 {
-    width: 224px;
+    width: 210px;
     background-color: rgb(180, 174, 174);
     padding: 20px;
   }
