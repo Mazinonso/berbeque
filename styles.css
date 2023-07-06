@@ -125,6 +125,8 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 .about-container {
   width: 90%;
@@ -164,6 +166,84 @@ body {
   left: 19px;
   margin-top: 10px;
   color: white;
+}
+
+.our-menu {
+  width: 100%;
+  background-color: rgba(235, 235, 235, 1);
+  padding: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.our-menu-header {
+  width: 135px;
+  font-family: Butler;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  margin-bottom: 10px;
+  margin-left: 23px;
+}
+.menu-price {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.our-menu-nav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-family: DM Sans;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  margin-bottom: 10px;
+  gap: 34px;
+  margin-right: 30px;
+}
+
+.menu-price-container {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 15px;
+}
+.menu-price-image {
+  width: 307px;
+  background-color: rgb(233, 226, 226);
+  padding: 15px;
+}
+
+.menu-price-image img {
+  width: 110px;
+  top: 1870px;
+  left: 39px;
+}
+.menu-price-image p {
+  width: 201px;
+  font-family: DM Sans;
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: -0.02em;
+  text-align: left;
+}
+.menu-price-image b {
+  width: 62px;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  text-align: left;
+}
+.our-menu1 {
+  display: none;
 }
 @media screen and (min-width: 768px) {
   body {
@@ -277,6 +357,7 @@ body {
     padding: 10px;
     border: none;
     font-family: "DM Sans", sans-serif;
+    color: white;
   }
 
   .fa-solid {
@@ -317,6 +398,7 @@ body {
 
   .about-inside1 {
     width: 55%;
+    margin-left: 70px;
   }
   .about-info-one {
     width: 62%;
@@ -326,6 +408,7 @@ body {
     letter-spacing: -0.02em;
     text-align: justified;
     margin-top: 10px;
+    margin-right: 47px;
   }
 
   .about-info-one p {
@@ -351,5 +434,69 @@ body {
     left: 230px;
     padding-bottom: 6px;
     margin-top: 13px;
+  }
+  .our-menu {
+    display: none;
+  }
+
+  .our-menu1 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: rgba(235, 235, 235, 1) !important;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .our-menu-header {
+    width: 270px;
+    font-family: Butler;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 65px;
+    letter-spacing: -0.02em;
+    text-align: left;
+  }
+
+  .menu-price1 {
+    width: 100%;
+    display: flex;
+    padding-top: 80px;
+    padding-top: 80px;
+  }
+
+  .our-menu-nav1 {
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    gap: 55px;
+    align-items: center;
+    padding-top: 27px;
+    border-right: 1px solid black;
+    height: fit-content;
+  }
+  .menu-price-container1 {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 27px;
+  }
+  .menu-price-image1 {
+    width: 224px;
+    background-color: rgb(180, 174, 174);
+    padding: 20px;
+  }
+  .menu-price-image1 img {
+    width: 110px;
+  }
+
+  .menu-price-image1 p {
+    font-family: DM Sans;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: -0.02em;
+    text-align: left;
   }
 }
