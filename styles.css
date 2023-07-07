@@ -380,6 +380,101 @@ body {
   letter-spacing: -0.02em;
   text-align: left;
 }
+.footer-web {
+  display: none;
+}
+.footer-mobile {
+  width: 100%;
+  background-color: rgba(252, 90, 11, 1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 30px;
+}
+.footer-container {
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+  padding-block: 20px;
+}
+.footer-inside-one {
+  width: 30%;
+}
+
+.footer-image {
+  padding-bottom: 10px;
+}
+.footer-text-one1 {
+  padding-bottom: 10px;
+}
+.footer-text-one1 b {
+  font-family: DM Sans;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  text-decoration: underline;
+  color: rgb(105, 102, 102);
+}
+.footer-text-one2 {
+  padding-bottom: 10px;
+}
+.footer-text-one2 p {
+  font-family: DM Sans;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 17px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  text-decoration: underline;
+  color: rgba(241, 239, 239, 1);
+}
+
+.footer-text-one2 b {
+  font-family: DM Sans;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  text-decoration: underline;
+  color: rgb(105, 102, 102);
+}
+.footer-text-one1 p {
+  font-family: DM Sans;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 17px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  text-decoration: underline;
+  color: rgba(241, 239, 239, 1);
+}
+.footer-inside-two {
+  width: 50%;
+}
+
+.footer-inside-two b {
+  font-family: DM Sans;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: rgb(105, 102, 102);
+}
+
+.footer-inside-two p {
+  font-family: DM Sans;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: rgba(241, 239, 239, 1);
+}
 @media screen and (min-width: 768px) {
   body {
     background-image: url(./img/image\ 4.png);
@@ -764,5 +859,9 @@ body {
     font-weight: 700;
     letter-spacing: -0.02em;
     text-align: left;
+  }
+
+  .footer-mobile {
+    display: none;
   }
 }
