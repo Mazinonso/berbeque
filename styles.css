@@ -266,7 +266,120 @@ body {
   justify-content: center;
   color: white;
 }
+.Gallery1 {
+  display: none;
+}
+.Gallery {
+  width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
 
+.Gallery-container {
+  width: 90%;
+  margin-top: 20px;
+}
+
+.Gallery p {
+  font-family: Butler;
+  font-size: 50px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  text-align: left;
+  margin-bottom: 10px;
+}
+.Gallery-grid {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.Gallery-grid img {
+  width: 162px;
+}
+
+.see-more {
+  width: 100%;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.see-more button {
+  background-color: #fb2504;
+  width: 209px;
+  padding: 20px;
+  border: none;
+  font-family: "DM Sans", sans-serif;
+  color: white;
+  box-shadow: 0px 0px 10px 0px gray inset;
+}
+
+.contact1 {
+  display: none;
+}
+
+.contact {
+  width: 100%;
+  border-top: 1px solid black;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-container {
+  width: 90%;
+}
+
+.contact-image {
+  width: 90%;
+  gap: 50px;
+}
+
+.contact-image img {
+  width: 100%;
+}
+
+.contact-us {
+  width: 144px;
+  font-family: Butler;
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  text-align: left;
+  padding-block: 20px;
+}
+.contact-text {
+  width: 90%;
+  padding-bottom: 35px;
+  padding-top: 10px;
+  gap: 60px;
+}
+.contact-text1 {
+  font-family: DM Sans;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: -0.02em;
+  text-align: left;
+}
+
+.contact-text2 {
+  width: 100%;
+  font-family: DM Sans;
+  font-size: 21px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  text-align: left;
+}
 @media screen and (min-width: 768px) {
   body {
     background-image: url(./img/image\ 4.png);
@@ -543,5 +656,113 @@ body {
     display: flex;
     justify-content: center;
     color: white;
+  }
+
+  .Gallery {
+    display: none;
+  }
+  .Gallery1 {
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .Gallery-container1 {
+    width: 90%;
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+
+  .Gallery1 p {
+    font-family: Butler;
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    text-align: left;
+    margin-bottom: 10px;
+    padding-left: 45px;
+  }
+  .Gallery-grid1 {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 20px;
+  }
+
+  .Gallery-grid1 img {
+    width: 280px;
+  }
+
+  .contact {
+    display: none;
+  }
+
+  .contact1 {
+    width: 100%;
+    border-top: 1px solid black;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+  }
+
+  .contact-container1 {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .contact-image1 {
+    width: 50%;
+    gap: 50px;
+  }
+
+  .contact-image img {
+    width: 498px;
+    height: 373px;
+  }
+
+  .contact-us1 {
+    width: 144px;
+    font-family: Butler;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    text-align: left;
+    padding-block: 20px;
+    margin-right: 720px;
+  }
+  .contact-text- {
+    width: 50%;
+    padding-bottom: 35px;
+    padding-top: 10px;
+  }
+
+  .contact-text-inside {
+    padding-block: 20px;
+  }
+  .contact-text1 {
+    font-family: DM Sans;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: -0.02em;
+    text-align: left;
+  }
+
+  .contact-text2 {
+    width: 100%;
+    font-family: DM Sans;
+    font-size: 21px;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    text-align: left;
   }
 }
